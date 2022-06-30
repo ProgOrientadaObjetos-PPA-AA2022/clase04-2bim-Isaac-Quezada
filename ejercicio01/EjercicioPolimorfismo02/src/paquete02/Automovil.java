@@ -9,6 +9,30 @@ package paquete02;
  *
  * @author reroes
  */
-public class Automovil {
+public abstract class Automovil {
+    public String nombreOP;
+    public String placa;
+    public double valor;
     
+    public void establecerNombrePropietario(String nombre){
+        nombreOP = nombre;
+    }
+    
+    public void establecerPlaca(String pla){
+        placa = pla;
+    }
+    
+    public  abstract void calcularValor();
+    
+    public String obtenerNombrePropietario(){
+        return nombreOP;
+    }
+    
+    public String obtenerPlaca(){
+        return placa;
+    }
+    
+    public double obtenerValor(){
+        return valor;    
+    }  
 }

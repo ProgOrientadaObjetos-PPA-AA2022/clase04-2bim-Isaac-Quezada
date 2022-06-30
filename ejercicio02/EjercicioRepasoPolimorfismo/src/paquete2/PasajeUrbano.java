@@ -19,10 +19,10 @@ public abstract class PasajeUrbano{
         valorFijo = pasajeFijo;
     }
     
-    public void establecerPersona(Persona u, double fijo){
-        usuario = u;
-        valorFijo = fijo;
-    }
+    //public void establecerPersona(Persona u, double fijo){
+      //  usuario = u;
+      //  valorFijo = fijo;
+    //}
     
        
     public void establecerPersona(Persona p){
